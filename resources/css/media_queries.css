@@ -1,0 +1,161 @@
+/* Screen size between 1023px to 1200px */
+@media only screen and (max-width: 1200px){
+
+  .hero-main-text{
+    width: 100%;
+    padding: 0 3%;
+  }
+
+  .row{padding: 0 3%;}
+}
+
+/* Screen size between 768px to 1023px */
+@media only screen and (max-width: 1023px){
+
+    body{font-size: 18px;}
+
+    section{padding: 60px 0;}
+
+    .long-copy{
+      width: 80%;
+      margin-left: 10%;
+    }
+
+    .steps-box:first-child{margin-top: 10px;}
+
+    .steps-box:last-child{margin-top: 10px;}
+
+    #works-section .app-screen{
+      width: 50%;
+      height: auto;
+    }
+
+    .work-step:last-of-type{
+      margin-bottom: 60px;
+    }
+
+    #city-section{
+      font-size: 85%;
+    }
+
+    .icon-small{
+      width: 20px;
+      font-size: 100%;
+      margin-right: 5px;
+    }
+
+    /* Custome Section */
+    #customers-section{
+      padding: 60px;
+    }
+
+
+    /* Pricing Section */
+    .plan-box{
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .plan-price{
+      font-size: 250%;
+    }
+
+    .contact-form{
+      width: 80%;
+    }
+
+}
+
+/* Screen size between 481px to 768px */
+@media only screen and (max-width: 767px){
+
+  body{font-size: 16px;}
+
+  .row,
+  .hero-main-text{
+    padding: 0 4%;
+  }
+
+  .col{
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+
+  section{padding: 30px 0;}
+
+  h1{font-size: 180%;}
+
+  h2{font-size: 150%;}
+
+  .main-nav{display: none;}
+
+  .long-copy{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /*------------Works Section----------------*/
+  #works-section .app-screen{
+    width: 35%;
+  }
+
+  .steps-box:first-child{
+    text-align: center;
+  }
+
+  .work-step{
+    margin-bottom: 25px;
+  }
+
+  .work-step:last-of-type{
+    margin-bottom: 40px;
+  }
+
+  .work-step div{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    padding: 1px;
+    font-size: 120%;
+  }
+
+  #city-section{
+    font-size: 90%;
+  }
+
+  /*------------Customers Section----------------*/
+  blockquote{
+    margin-top: 25px;
+  }
+
+  cite{
+    margin-top: 15px;
+  }
+
+  .plan-box{
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  #pricing-section h3,.plan-price,.plan-price-meal{
+    text-align: center;
+  }
+
+  footer
+  {
+    text-align: center;
+  }
+
+}
+
+/* Screen size between 0 to 480px */
+@media only screen and (max-width: 480px){
+    section{padding: 25px 0}
+    .contact-form{width: 100%}
+
+
+    footer .social-links{
+      list-style: none;
+      float: left;
+    }
+}
